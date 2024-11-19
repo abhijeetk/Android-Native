@@ -1,0 +1,25 @@
+abhijeet@abhijeet-Precision-5530 /media/abhijeet/Chromium-Ubuntu/aosp  $ ls out/target/product/vsoc_x86_64/obj/JAVA_LIBRARIES/helloWorld_intermediates
+javalib.jar
+abhijeet@abhijeet-Precision-5530 /media/abhijeet/Chromium-Ubuntu/aosp  $ m helloWorld hello_world 
+============================================
+PLATFORM_VERSION_CODENAME=Baklava
+PLATFORM_VERSION=Baklava
+TARGET_PRODUCT=aosp_cf_x86_64_phone
+TARGET_BUILD_VARIANT=userdebug
+TARGET_ARCH=x86_64
+TARGET_ARCH_VARIANT=silvermont
+TARGET_2ND_ARCH=x86
+TARGET_2ND_ARCH_VARIANT=silvermont
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.8.0-48-generic-x86_64-Ubuntu-22.04.5-LTS
+HOST_CROSS_OS=windows
+BUILD_ID=MAIN
+OUT_DIR=out
+============================================
+[100% 2/2] analyzing Android.bp files and generating ninja file at out/soong/build.aosp_cf_x86_64_phone.ninja
+Warning: Module 'androidx.wear_wear' depends on non-existing optional_uses_libs 'wear-sdk'
+Warning: Module 'androidx.wear.compose_compose-foundation' depends on non-existing optional_uses_libs 'wear-sdk'
+out/soong/Android-aosp_cf_x86_64_phone.mk was modified, regenerating...
+[100% 13/13 0s remaining] Install: out/target/product/vsoc_x86_64/system/framework/helloWorld.jar
+
+#### build completed successfully (06:31 (mm:ss)) ####
