@@ -1,10 +1,8 @@
 // Android.bp
 java_library {
-    name: "helloWorld",
+    name: "hello_world_java",
     srcs: ["helloWorld.java"],
     static_libs: [],
     stem: "helloWorld", 
     installable: true,
-//    jar: true,
-//    sdk_version: "core_platform",
 }

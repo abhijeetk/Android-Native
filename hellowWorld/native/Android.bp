@@ -1,16 +1,10 @@
 cc_binary {
-    name: "hello_world",
-    srcs: ["hello_world.c"],
-    //static_executable: true,  // Avoid dependencies on shared libraries
-    target: {
-        android_arm64: {
-            enabled: true,
-        },
-    },
+    name: "hello_world_native",
+    srcs: ["hello_world.cc"],
     shared_libs: [
         "liblog",               // For logging
         "libandroid_runtime",   // Android runtime for JNI
         "libnativehelper",      // Native Java helper library
     ],
-    static_libs: ["helloWorld"],
+    static_libs: ["hello_world_java"],
 }

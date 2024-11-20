@@ -1,0 +1,1 @@
+>  adb shell dalvikvm -cp "/data/local/tmp/helloWorld.jar" -Xint:portable -Xdexopt:none -Xverify:none helloWorld
