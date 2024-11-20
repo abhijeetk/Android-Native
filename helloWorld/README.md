@@ -44,5 +44,9 @@ Hello, World
 20 squared is 400
 20 raised to the 3 power is 8000
 ```
-
+## Debug
+Run logcat in another terminal before running ./hello_world_native
+```
+adb logcat 
+```
 
