@@ -22,19 +22,22 @@ source build/envsetup.sh
 lunch aosp_cf_arm64_phone-trunk_staging-userdebug
 m hello_world_java hello_world_native
 ```
-It will generate ./out_arm64/target/product/vsoc_arm64/system/framework/helloWorld.jar and
-out_arm64/target/product/vsoc_arm64/system/bin/hello_world_native
+It will generate `./out_arm64/target/product/vsoc_arm64/system/framework/helloWorld.jar` and
+`out_arm64/target/product/vsoc_arm64/system/bin/hello_world_native`.
+
 Push it to device/emulator to /data/local/tmp/
 
 ## Push jar and executable to device
 ```
 adb push out_arm64/target/product/vsoc_arm64/system/bin/hello_world_native /data/local/tmp
+
 adb push out_arm64/target/product/vsoc_arm64/system/framework/helloWorld.jar /data/local/tmp/
 ```
 
 ## Run
 ```
 adb shell
+
 m14x:/data/local/tmp $ ./hello_world_native                                                                   
 Launched JVM! :)
 Hello, World
